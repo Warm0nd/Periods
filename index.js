@@ -29,7 +29,7 @@ createItems(period) {
 
 let dates = [];
 
-    //Не была объявлена переменная i в обоих циклах
+  //Не была объявлена переменная i в обоих циклах
 for (let i = +period.start; i < +period.end; i+= 3600000 * 168) {
   dates.push(i);
 }
@@ -85,7 +85,7 @@ for (let i=0; i<n-a; ++i) {
 console.log(periods);
 return periods;
 }
-    //Некорректное объявление переменной element
+   //Некорректное объявление переменной element
 renderItems(items) {
 let element = document.createElement('div');
 this.container.appendChild(element);
